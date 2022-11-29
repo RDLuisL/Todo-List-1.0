@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+@font-face {
+    font-family: Handwrite;
+    src: url(/workspace/Todo-List-con-Byron/src/js/handwrited.ttf);
+}
+
+.agenda {
+    width: 600px;
+    z-index: -10;
+}
+
+input {
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+ul {
+    font-family: Handwrite;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    z-index: +10;
+    
+}
+
+.lista {
+    margin-top: 20px;
+}
